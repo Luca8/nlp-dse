@@ -2,7 +2,8 @@ This repo will hold the code for our first shiny app!
 
 `git clone git@github.com:lukaszdz/nlp-dse.git`
 
-```library(shiny)
+```
+library(shiny)
 runApp(host='0.0.0.0', port=80)
 ```
 

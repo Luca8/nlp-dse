@@ -26,6 +26,11 @@ server <- function(input, output) {
 
   output$myTextOutput <- renderText({
     as.character(input$myDate)
+    
+  
+  output$plotL<-renderPlot({
+  plot(runif(100))
+  })
   })
 }
 
